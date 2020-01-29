@@ -2,7 +2,7 @@
 
 public class PlayerCollision : MonoBehaviour
 {
-    public PlayerMovement movement;
+    public PlayerMovementAI movement;
 
     void OnCollisionEnter(Collision collision)
     {
